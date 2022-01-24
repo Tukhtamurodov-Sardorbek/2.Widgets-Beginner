@@ -51,7 +51,7 @@ class _HomePageState extends State<HomePage> {
           child: Stack(
             children: [
               Container(height: MediaQuery.of(context).size.height*0.33, alignment: Alignment.center, child: Image(image: AssetImage(mediaPath))),
-              Align(alignment: Alignment.bottomCenter, child: Text(pageName, style: const TextStyle(backgroundColor: Colors.grey, fontSize: 30, letterSpacing: 1.5, fontWeight: FontWeight.bold),)),
+              Align(alignment: Alignment.bottomCenter, child: Text(pageName, style: const TextStyle(backgroundColor: Colors.grey, fontSize: 30, letterSpacing: 1.5, fontWeight: FontWeight.bold), textAlign:  TextAlign.center,)),
             ],
           ),
         ),
